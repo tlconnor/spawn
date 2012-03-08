@@ -1,5 +1,5 @@
-require File.join(File.dirname(__FILE__), 'spawn', 'patches')
 require File.join(File.dirname(__FILE__), 'spawn', 'spawn')
+require File.join(File.dirname(__FILE__), 'spawn', 'patches')
 
 ActiveRecord::Base.send :include, Spawn
 ActionController::Base.send :include, Spawn
